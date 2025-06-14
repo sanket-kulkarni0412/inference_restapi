@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.13.5
 ADD . .
 
 RUN pip3 install -r requirements.txt
